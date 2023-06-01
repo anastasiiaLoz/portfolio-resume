@@ -21,22 +21,25 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>10+ Years Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Education</h5>
+              <small>○ Bachelor Degree in Translation and Linguistics</small>
+              <small>○ IT School GOIT (Ukraine)</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>Visit my Github repos for details</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse magni animi iste ut totam placeat sed fugiat autem
-            impedit, adipisci aliquam reprehenderit culpa nobis error id magnam ipsum. Architecto, molestias.
+            Professional with more than 10 years of experience in Hospitality and Customer Support fields located in Portugal,
+            Brazil, Australia, USA and Ukraine. Great team work ability, detail orientated, effective communication and
+            politeness, being efficient and responsible. Fluent in English, Russian, Ukrainian, Portuguese languages, currently
+            studying Korean.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk
