@@ -1,100 +1,114 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import { BiCheck } from "react-icons/bi";
 
-const experience = () => {
+const Experience = () => {
   return (
-    <section id="experience">
-      <h5>What Skills I have</h5>
-      <h2>My Experience</h2>
-
-      <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Frontend Developer</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                {" "}
-                <h4>Tailwind</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
+    <section id="services">
+      <h5>What I Offer</h5>
+      <h2>Work Experience</h2>
+      <div className="container services__container">
+        <article className="service">
+          <div className="service__head">
+            <h3>Web Development</h3>
           </div>
-        </div>
-        <div className="experience__backend">
-          <div className="experience__frontend">
-            <h3>Backend Developer</h3>
-            <div className="experience__content">
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>Node JS</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>MongoDB</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>PHP</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>MySQL</h4>
-                  <small className="text-light">Basic</small>
-                </div>
-              </article>
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>Python</h4>
-                  <small className="text-light">Basic</small>
-                </div>
-              </article>
-            </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Part Time Self Employed</p>
+              <p>Lisbon, Portugal</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        <article className="service">
+          <div className="service__head">
+            <h3>Customer Service Representative</h3>
           </div>
-        </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        <article className="service">
+          <div className="service__head">
+            <h3>Hospitality</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
       </div>
     </section>
   );
 };
 
-export default experience;
+export default Experience;
