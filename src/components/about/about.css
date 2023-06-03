@@ -10,7 +10,6 @@
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
-    /* place-items: center; */
 }
 
 .about__me-image{
@@ -51,7 +50,7 @@
     margin-bottom: 1rem;
 }
 
-.about__card h5{
+.about__card h5 {
     font-size: 0.95rem;
 }
 

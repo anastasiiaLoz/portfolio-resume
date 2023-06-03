@@ -60,6 +60,12 @@ const stack = () => {
                 <h4>Redux/Redux Toolkit/Hooks</h4>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Figma</h4>
+              </div>
+            </article>
           </div>
         </div>
         <div className="experience__backend">

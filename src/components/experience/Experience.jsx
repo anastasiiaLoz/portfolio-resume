@@ -15,28 +15,25 @@ const Experience = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Part Time Self Employed</p>
-              <p>Lisbon, Portugal</p>
+              <div>
+                <p className="service_workplace">Personal Projects</p>
+                <p>MERN Social Media App</p>
+                <p>Portfolio</p>
+                <p>Weather</p>
+                <p>Movie Finder</p>
+                <p>Nested Accordion</p>
+              </div>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div>
+                <p className="service_workplace">Team Projects</p>
+                <p>Slim Mom</p>
+                <p>Shop</p>
+                <p>Ice Cream</p>
+                <p>Weather Forecast</p>
+                <p>Nested Accordion</p>
+              </div>
             </li>
           </ul>
         </article>
@@ -47,32 +44,36 @@ const Experience = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div>
+                <p className="service_workplace">Teleperformance</p>
+                <p>Lisbon, Portugal</p>
+                <p>Customer Service Support | December 2021 - March 2023 </p>
+              </div>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+            <BiCheck className="service__list-icon" />
+            <div>
+              <p className="service_workplace">In White</p>
+              <p>Odessa, Ukraine</p>
+              <p>Wholesale Manager | August 2019 - December 2019</p>
+            </div>
+          </li>
+          <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Hotel Hermes</p>
+            <p>Odessa, Ukraine</p>
+            <p>Receptionist | January 2013 - August 2013</p>
+          </div>
+        </li>
+        <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Yunost Hotel</p>
+            <p>Odessa, Ukraine</p>
+            <p>Receptionist | July 2012 - January 2013</p>
+          </div>
+        </li>
           </ul>
         </article>
         <article className="service">
@@ -80,30 +81,62 @@ const Experience = () => {
             <h3>Hospitality</h3>
           </div>
           <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+          <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Teleperformance</p>
+            <p>Lisbon, Portugal</p>
+            <p>Customer Service Support | December 2021 - March 2023 </p>
+          </div>
+        </li>
+        <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Pasta Non Basta</p>
+            <p>Lisbon, Portugal</p>
+            <p>Customer Service Support | December 2021 - March 2023 </p>
+          </div>
+        </li>
+        <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Em Alta na baixa Restaurant by Fullest</p>
+            <p>Lisbon, Portugal</p>
+            <p>Waitress | January 2020 - May 2020</p>
+          </div>
+        </li>
+        <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Jellyfish Manly</p>
+            <p>Manly, Sydney, NSW, Australia | December 2017 - June 2019</p>
+            <p>Assistant Manager</p>
+          </div>
+        </li>
+        <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Cavallino Restaurante</p>
+            <p>Sydney, NSW, Australia</p>
+            <p>Waitress | August 2017 - December 2017</p>
+          </div>
+        </li>
+        <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Aleixo Restaurante Deli e Bar</p>
+            <p>Vitoria, ES, Brazil</p>
+            <p>Restaurant Manager | June 2015 - July 2017</p>
+          </div>
+        </li>
+        <li>
+          <BiCheck className="service__list-icon" />
+          <div>
+            <p className="service_workplace">Princess Cruises</p>
+            <p>USA</p>
+            <p>Waitress | August 2013 - January 2015</p>
+          </div>
+        </li>
           </ul>
         </article>
       </div>

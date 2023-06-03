@@ -46,6 +46,12 @@
     margin-top: 2px;
 }
 
+.service_workplace{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+
 .service__list p{
     font-size: 0.9rem;
 }
