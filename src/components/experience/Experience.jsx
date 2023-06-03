@@ -32,7 +32,7 @@ const Experience = () => {
                 <p>Shop</p>
                 <p>Ice Cream</p>
                 <p>Weather Forecast</p>
-                <p>Nested Accordion</p>
+                <p>NodeJS Backend for Kapusta Project</p>
               </div>
             </li>
           </ul>
