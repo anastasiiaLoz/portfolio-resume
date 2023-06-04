@@ -1,8 +1,19 @@
 import React from "react";
 import "./experience.css";
 import { BiCheck } from "react-icons/bi";
+import { useState } from "react";
+import Button from "../button/Button";
+import "../button/button.css"
 
 const Experience = () => {
+
+  const [isOpen, setOpen] = useState(false);
+  const handleClick = () => {
+    setOpen(!isOpen);
+  };
+
+  
+
   return (
     <section id="services">
       <h5>What I Offer</h5>
@@ -37,6 +48,8 @@ const Experience = () => {
             </li>
           </ul>
         </article>
+        
+        <div>
         <article className="service">
           <div className="service__head">
             <h3>Customer Service Representative</h3>
@@ -76,19 +89,15 @@ const Experience = () => {
         </li>
           </ul>
         </article>
+        <Button onClick={handleClick}>{isOpen ? "Hide" : "See More" }</Button>
+            {isOpen && <div>Content</div>}
+        </div>
+        <div>
         <article className="service">
           <div className="service__head">
             <h3>Hospitality</h3>
           </div>
           <ul className="service__list">
-          <li>
-          <BiCheck className="service__list-icon" />
-          <div>
-            <p className="service_workplace">Teleperformance</p>
-            <p>Lisbon, Portugal</p>
-            <p>Customer Service Support | December 2021 - March 2023 </p>
-          </div>
-        </li>
         <li>
           <BiCheck className="service__list-icon" />
           <div>
@@ -139,6 +148,9 @@ const Experience = () => {
         </li>
           </ul>
         </article>
+        </div>
+        <Button onClick={handleClick}>{isOpen ? "Hide" : "See More" }</Button>
+            {isOpen && <div>Content</div>}
       </div>
     </section>
   );
