@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./experience.css";
 import { BiCheck } from "react-icons/bi";
 import { useState } from "react";
 import Button from "../button/Button";
-import "../button/button.css"
+
 
 const Experience = () => {
 
   const [isOpen, setOpen] = useState(false);
+  const ref = useRef();
+  
+
   const handleClick = () => {
     setOpen(!isOpen);
+    if (ref.current.style.height){
+      ref.current.style.height  = "";
+    } else {
+      ref.current.style.height  = "auto";
+    }
   };
-
   
 
   return (
@@ -49,8 +56,8 @@ const Experience = () => {
           </ul>
         </article>
         
-        <div>
-        <article className="service">
+        <div className="experience_container">
+        <article ref={ref} className="service">
           <div className="service__head">
             <h3>Customer Service Representative</h3>
           </div>
@@ -90,10 +97,9 @@ const Experience = () => {
           </ul>
         </article>
         <Button onClick={handleClick}>{isOpen ? "Hide" : "See More" }</Button>
-            {isOpen && <div>Content</div>}
         </div>
-        <div>
-        <article className="service">
+        <div  className="experience_container">
+        <article ref={ref} className="service">
           <div className="service__head">
             <h3>Hospitality</h3>
           </div>
@@ -148,9 +154,9 @@ const Experience = () => {
         </li>
           </ul>
         </article>
-        </div>
         <Button onClick={handleClick}>{isOpen ? "Hide" : "See More" }</Button>
-            {isOpen && <div>Content</div>}
+        </div>
+   
       </div>
     </section>
   );

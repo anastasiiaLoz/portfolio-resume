@@ -58,6 +58,12 @@
     font-size: 0.9rem;
 }
 
+.experience_container{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
 @media screen and (max-width: 1024px) {
     .services__container{
         grid-template-columns: 1fr 1fr;
@@ -74,3 +80,4 @@
             gap: 1.5rem
         }
 }
+

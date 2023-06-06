@@ -1,9 +1,10 @@
 import React from "react";
-import "./button.css"
+import s from "./Button.module.css"
+
 
 const Button = ({ onClick, children }) => {
     return (
-      <button className="btn btn-primary" onClick={onClick}>
+      <button className={s.btn_toggle} onClick={onClick}>
         {children}
       </button>
     );
