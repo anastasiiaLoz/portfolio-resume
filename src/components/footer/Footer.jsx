@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -18,10 +18,10 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">Stack</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">Work Experience</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
@@ -40,8 +40,8 @@ const Footer = () => {
         <a href="https://instagram.com">
           <FiInstagram />
         </a>
-        <a href="https://twitter.com">
-          <IoLogoTwitter />
+        <a href="https://www.linkedin.com/in/anastasiia-lozovych-full-stack-developer/">
+          <BsLinkedin />
         </a>
       </div>
     </footer>
