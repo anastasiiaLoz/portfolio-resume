@@ -40,6 +40,7 @@ const Experience = () => {
                 <p>Weather</p>
                 <p>Movie Finder</p>
                 <p>Nested Accordion</p>
+                <p>Shop</p>
               </div>
             </li>
             <li>
@@ -47,8 +48,6 @@ const Experience = () => {
               <div>
                 <p className="service_workplace">Team Projects</p>
                 <p>Slim Mom</p>
-                <p>Shop</p>
-                <p>Ice Cream</p>
                 <p>Weather Forecast</p>
                 <p>NodeJS Backend for Kapusta Project</p>
               </div>

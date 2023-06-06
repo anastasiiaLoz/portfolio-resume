@@ -1,54 +1,77 @@
 import React from "react";
 import "./portfolio.css";
-import IMG from "../../assets/me.png";
-import IMG1 from "../../assets/me.png";
-import IMG2 from "../../assets/me.png";
-import IMG3 from "../../assets/me.png";
-import IMG4 from "../../assets/me.png";
-import IMG5 from "../../assets/me.png";
+import IMG1 from "../../assets/1.png";
+import IMG2 from "../../assets/2.png";
+import IMG3 from "../../assets/3.png";
+import IMG4 from "../../assets/4.png";
+import IMG5 from "../../assets/5.png";
+import IMG6 from "../../assets/6.jpg";
+import IMG7 from "../../assets/7.png";
+import IMG8 from "../../assets/8.png";
+import IMG9 from "../../assets/9.png";
 
 const data = [
   {
     id: 1,
-    image: IMG,
-    title: "Eclipse - Figma dashboard UI kit for data design web apps",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/18418524-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps"
+    image: IMG1,
+    title: "MERN Social Media App",
+    github: "https://github.com/anastasiiaLoz/Fullstack-responsive-MERN-app",
   },
   {
     id: 2,
-    image: IMG1,
-    title: "Title2",
-    github: "https://github.com",
+    image: IMG2,
+    title: "Portfolio",
+    github: "https://github.com/anastasiiaLoz/portfolio-resume",
     demo: "1"
   },
   {
     id: 3,
-    image: IMG2,
-    title: "Title3",
-    github: "https://github.com",
-    demo: "1"
+    image: IMG3,
+    title: "Weather",
+    github: "https://github.com/anastasiiaLoz/weather-app-react-redux",
+    demo: "https://weather-anastasiia-lozovych.netlify.app/"
   },
   {
     id: 4,
-    image: IMG3,
-    title: "Title4",
-    github: "https://github.com",
-    demo: "1"
+    image: IMG4,
+    title: "Movie Finder",
+    github: "https://github.com/anastasiiaLoz/movies-finder-themoviedb-api",
+    demo: "https://themoviedb-api-movie-finder-al.netlify.app/"
   },
   {
     id: 5,
-    image: IMG4,
-    title: "Title5",
-    github: "https://github.com",
-    demo: "1"
+    image: IMG5,
+    title: "Nested Accordion",
+    github: "https://github.com/anastasiiaLoz/nested-accordion-react",
+    demo: "https://nested-accordion-reactjs.netlify.app/"
   },
   {
     id: 6,
-    image: IMG5,
-    title: "Title6",
-    github: "https://github.com",
-    demo: "1"
+    image: IMG6,
+    title: "Shop",
+    github: "https://github.com/anastasiiaLoz/shop",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "Slim Mom",
+    github: "https://github.com/nazarsilveroff/hydeem-reactivno/tree/dev",
+    demo: "https://hydeem-reactivno.netlify.app/"
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "Weather Forecast",
+    github: "https://github.com/GeorgiyT/goit-js-project-forca",
+    demo: "https://georgiyt.github.io/goit-js-project-forca/"
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: "NodeJS Backend for Kapusta Project",
+    github: "https://github.com/anastasiiaLoz/backend-kapusta-project",
+    demo: "https://kozubskyi-goit-kapusta.netlify.app/authorization"
+    
   }
 ];
 

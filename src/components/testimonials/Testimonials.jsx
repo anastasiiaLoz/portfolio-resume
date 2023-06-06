@@ -1,50 +1,31 @@
 import React from "react";
 import "./testimonials.css";
-import Avatar1 from "../../assets/me.png";
-import Avatar2 from "../../assets/me.png";
-import Avatar3 from "../../assets/me.png";
-import Avatar4 from "../../assets/me.png";
-
+import Avatar1 from "../../assets/tetiana.jpeg";
+import Avatar2 from "../../assets/delgado.jpeg";
 import { Pagination } from "swiper";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
-
 import "swiper/css/pagination";
 
 const data = [
   {
     avatar: Avatar1,
-    name: "Tina Snow",
+    name: "Tetiana Zakharchenko",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam cupiditate ut error ratione eos nemo, velit sapiente fugiat nihil aspernatur vero dignissimos, pariatur illo, officia modi minus optio aperiam?"
+      "It was our last coaching and it's always sad to say goodbye to someone. Time flew and it was a big pleasure to work with you! You are an amazing person with a lot of good qualities and I have no doubts you will fulfill your potential and achieve great success in any area of development that you choose. Always stay positive as you are! Thanks you for everything!"
   },
   {
     avatar: Avatar2,
-    name: "Shatta Wale",
+    name: "Iaroslavna Delgado",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam cupiditate ut error ratione eos nemo, velit sapiente fugiat nihil aspernatur vero dignissimos, pariatur illo, officia modi minus optio aperiam?"
-  },
-  {
-    avatar: Avatar3,
-    name: "Kwame Despite",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam cupiditate ut error ratione eos nemo, velit sapiente fugiat nihil aspernatur vero dignissimos, pariatur illo, officia modi minus optio aperiam?"
-  },
-  {
-    avatar: Avatar4,
-    name: "Tina Snow",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam cupiditate ut error ratione eos nemo, velit sapiente fugiat nihil aspernatur vero dignissimos, pariatur illo, officia modi minus optio aperiam?"
+      "This is the person who has become for me an example of perfect colleague. I mean she's smart, responsible, funny. She always ready to help. She's also a motivation for others because she has impressive results."
   }
 ];
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
+      <h5>Recommendations from Supervisor and colleguage</h5>
       <h2>Testimonials</h2>
       <Swiper
         className="container testimonials__container"
