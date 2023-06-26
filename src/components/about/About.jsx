@@ -36,10 +36,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Professional with more than 10 years of experience in Hospitality and Customer Support fields located in Portugal,
-            Brazil, Australia, USA and Ukraine. Great team work ability, detail orientated, effective communication and
-            politeness, being efficient and responsible. Fluent in English, Russian, Ukrainian, Portuguese languages, currently
-            studying Korean.
+          I am an enthusiastic, goal-oriented professional with more than 10 years of experience in Hospitality and Customer Support fields located in Portugal,
+          Brazil, Australia, USA and Ukraine. Currently, looking to start a new career as Junior MERN Full Stack Developer. Great team work ability, detail orientated, effective communication and
+          politeness, excellent efficiency and responsibility. Fluent in English, Russian, Ukrainian, Portuguese languages, 
+          studying Korean at the moment. 
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk
