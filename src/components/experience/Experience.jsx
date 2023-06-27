@@ -2,18 +2,19 @@ import React, { useRef } from "react";
 import "./experience.css";
 import { BiCheck } from "react-icons/bi";
 import { useState } from "react";
-import Button from "../button/Button";
+
 
 
 const Experience = () => {
-
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpenSecondColumn, setIsOpenSecondColumn] = useState(false);
+  
   const ref1 = useRef();
   const ref2 = useRef();
   
 
-  const handleClick1 = () => {
-    setOpen(!isOpen);
+  const handleClick = () => {
+    setIsOpen(!isOpen);
     if (ref1.current.style.height){
       ref1.current.style.height  = "";
     } else {
@@ -21,8 +22,8 @@ const Experience = () => {
     }
   };
 
-  const handleClick2 = () => {
-    setOpen(!isOpen);
+  const handleClickSecondColumn = () => {
+    setIsOpenSecondColumn(!isOpenSecondColumn);
     if (ref2.current.style.height){
       ref2.current.style.height  = "";
     } else {
@@ -105,7 +106,7 @@ const Experience = () => {
         </li>
           </ul>
         </article>
-        <button className="btn btn-primary" onClick={handleClick1}>{isOpen ? "Hide" : "See More" }</button>
+        <button className="btn btn-primary" onClick={handleClick}>{isOpen ? "Hide" : "See More" }</button>
         </div>
         <div  className="experience_container">
         <article ref={ref2} className="service">
@@ -163,7 +164,7 @@ const Experience = () => {
         </li>
           </ul>
         </article>
-        <button className="btn btn-primary" onClick={handleClick2}>{isOpen ? "Hide" : "See More" }</button>
+        <button className="btn btn-primary" onClick={handleClickSecondColumn}>{isOpenSecondColumn ? "Hide" : "See More"}</button>
         </div>
       </div>
     </section>
