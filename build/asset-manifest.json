@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88274f8f.css",
+    "main.js": "/static/js/main.fbaf905a.js",
+    "static/media/me_cutout1.png": "/static/media/me_cutout1.1cb45b4f3b3b212b5ff3.png",
+    "static/media/8.png": "/static/media/8.92a1e01ab58098abf493.png",
+    "static/media/4.png": "/static/media/4.e47d99b2de52bc759975.png",
+    "static/media/3.png": "/static/media/3.23f7ffe8143a01d7a1a8.png",
+    "static/media/1.png": "/static/media/1.66a78fb8f829dbc9adc6.png",
+    "static/media/7.png": "/static/media/7.b0468028d40db4fbaa0b.png",
+    "static/media/2.png": "/static/media/2.549f052edb6a63313dd4.png",
+    "static/media/portrait.jpg": "/static/media/portrait.2a71637d689eb9a5bd83.jpg",
+    "static/media/6.jpg": "/static/media/6.e4f58042dfe2cb331db3.jpg",
+    "static/media/Anastasiia_Lozovych_junior_frontend.pdf": "/static/media/Anastasiia_Lozovych_junior_frontend.2eeaa3a8afe2b1e85912.pdf",
+    "static/media/9.png": "/static/media/9.96da8d44be1510992070.png",
+    "static/media/5.png": "/static/media/5.77ccb7694a4406d72387.png",
+    "static/media/tetiana.jpeg": "/static/media/tetiana.6bda6154561f8654d69a.jpeg",
+    "static/media/delgado.jpeg": "/static/media/delgado.258a6d96ee5a94a15fb1.jpeg",
+    "index.html": "/index.html",
+    "main.88274f8f.css.map": "/static/css/main.88274f8f.css.map",
+    "main.fbaf905a.js.map": "/static/js/main.fbaf905a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88274f8f.css",
+    "static/js/main.fbaf905a.js"
+  ]
+}
