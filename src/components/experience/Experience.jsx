@@ -8,15 +8,25 @@ import Button from "../button/Button";
 const Experience = () => {
 
   const [isOpen, setOpen] = useState(false);
-  const ref = useRef();
+  const ref1 = useRef();
+  const ref2 = useRef();
   
 
-  const handleClick = () => {
+  const handleClick1 = () => {
     setOpen(!isOpen);
-    if (ref.current.style.height){
-      ref.current.style.height  = "";
+    if (ref1.current.style.height){
+      ref1.current.style.height  = "";
     } else {
-      ref.current.style.height  = "auto";
+      ref1.current.style.height  = "auto";
+    }
+  };
+
+  const handleClick2 = () => {
+    setOpen(!isOpen);
+    if (ref2.current.style.height){
+      ref2.current.style.height  = "";
+    } else {
+      ref2.current.style.height  = "auto";
     }
   };
   
@@ -56,7 +66,7 @@ const Experience = () => {
         </article>
         
         <div className="experience_container">
-        <article ref={ref} className="service">
+        <article ref={ref1} className="service">
           <div className="service__head">
             <h3>Customer Service Representative</h3>
           </div>
@@ -95,10 +105,10 @@ const Experience = () => {
         </li>
           </ul>
         </article>
-        <Button onClick={handleClick}>{isOpen ? "Hide" : "See More" }</Button>
+        <button className="btn btn-primary" onClick={handleClick1}>{isOpen ? "Hide" : "See More" }</button>
         </div>
         <div  className="experience_container">
-        <article ref={ref} className="service">
+        <article ref={ref2} className="service">
           <div className="service__head">
             <h3>Hospitality</h3>
           </div>
@@ -153,9 +163,8 @@ const Experience = () => {
         </li>
           </ul>
         </article>
-        <Button onClick={handleClick}>{isOpen ? "Hide" : "See More" }</Button>
+        <button className="btn btn-primary" onClick={handleClick2}>{isOpen ? "Hide" : "See More" }</button>
         </div>
-   
       </div>
     </section>
   );
